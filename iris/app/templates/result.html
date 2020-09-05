@@ -1,10 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-
-</body>
-</html>
+<title>Iris Predict App</title>
+{% if irisName %}
+  <h1>これは {{ irisName }} です</h1>
+  <a href="./">トップへ戻る</a>
+{% else %}
+  <a href="./">トップへ戻る</a>
+{% endif %}
